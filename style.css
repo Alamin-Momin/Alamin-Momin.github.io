@@ -15,7 +15,7 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  background: red;
+  background: 0C7C59;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -42,5 +42,5 @@ h1 {
 }
 
 .nav-list a:hover {
-  color: white;
+  color: #D6EDFF;
 }
