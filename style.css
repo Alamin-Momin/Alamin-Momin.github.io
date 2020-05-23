@@ -2,6 +2,7 @@
 /* Custom properties/variables  */
 :root {
   --dark-green: #0C7C59;
+  --dark-blue: #0F4D92;
   --light-green: #be3144;
   --light-blue: #E7F4FF;    
 }
@@ -72,7 +73,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  background: #0C7C59;
+  background: var(--dark-green);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -80,6 +81,7 @@ ul {
 .nav-list {
   display: flex;
   margin-right: 2rem;
+  color: var(--light-blue);
 }
 
 @media (max-width: 28.75em) {
@@ -99,5 +101,5 @@ ul {
 }
 
 .nav-list a:hover {
-  color: #D6EDFF;
+  background: var(--darkblue);
 }
