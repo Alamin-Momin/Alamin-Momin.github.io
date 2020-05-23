@@ -1,32 +1,95 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" type = "text/css" href="style.css">
- <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>alamin momin</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
- </head>
+</head>
 
-  <body>
+<body>
   <!--Nav Bar-->
+  <div class="blank"></div>
   <nav id="navbar" class="nav">
-  <ul class="nav-list">
-    <li>
-      <a href="#welcome-section">About 🧑🏽‍💻</a>
-    </li>
-    <li>
-      <a href="#interests">Interests 🏀</a>
-    </li>
-    <li>
-      <a href="#contact">Contact 📱</a>
-    </li>
-  </ul>
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">About 🧑🏽‍💻</a>
+      </li>
+      <li>
+        <a href="#interests">Interests 🏀</a>
+      </li>
+      <li>
+        <a href="#contact">Contact 📱</a>
+      </li>
+    </ul>
   </nav>
-  <!--End of Nav Bar -->
-  
-   <h1>Hello World!</h1>
+  <!--End of Nav Bar-->
  
-  </body>
+ <!--Greeting-->
+  <div id ="welcome">
+    <section id="welcome-section" class="welcome-section">
+      <h1>hey, i'm <name id="name">alamin</id></h1>
+      <p>welcome to my site</p>
+    </section>
+  </div>
+
+<!--Blog-->
+<section id="interests" class="interests">
+  <h2 class="projects-section-header">Thougths...</h2>
+
+  <div class="projects-grid">
+   
+    <a
+      href="https://techcrunch.com/"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="images/tech.jpg"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Tech
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+   
+    <a
+      href="https://bleacherreport.com/"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="images/sports.png"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Sports
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a
+      href="https://www.bonappetit.com/recipe/strawberry-milk"
+      target="_blank"
+      class="project project-tile"
+    >
+      <img
+        class="project-image"
+        src="images/milk.jpg"
+        alt="project"
+      />
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Food(?)
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+
+</body>
 </html>
