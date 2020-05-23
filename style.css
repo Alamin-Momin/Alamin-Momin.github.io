@@ -3,8 +3,9 @@
 :root {
   --dark-green: #0C7C59;
   --dark-blue: #0F4D92;
-  --light-green: #be3144;
+  --light-green: #9CE6C0;
   --light-blue: #E7F4FF;    
+  --charcoal: #454D54;
 }
 
 /* Base reset */
@@ -73,15 +74,13 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--dark-green);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
 .nav-list {
   display: flex;
   margin-right: 2rem;
-  color: var(--light-blue);
+  color: var(--charcoal);
 }
 
 @media (max-width: 28.75em) {
@@ -98,8 +97,13 @@ ul {
   display: block;
   font-size: 2.2rem;
   padding: 2rem;
+  text-decoration: none;
+}
+
+.nav-list a:visited{
+  color: var(--charcoal);
 }
 
 .nav-list a:hover {
-  background: var(--darkblue);
+  color: var(--darkblue);
 }
