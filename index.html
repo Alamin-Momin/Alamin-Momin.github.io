@@ -11,17 +11,16 @@
 
 <body>
   <!--Nav Bar-->
-  <div class="blank"></div>
   <nav id="navbar" class="nav">
     <ul class="nav-list">
       <li>
-        <a href="#welcome-section">About 🧑🏽‍💻</a>
+        <a href="#welcome-section">About&nbsp;&nbsp;&nbsp;<span id = "emoji1"><i class="fas fa-user-tie" style="font-size:24px;color:#0084ff"></i></span></a>
       </li>
       <li>
-        <a href="#interests">Interests 🏀</a>
+        <a href="#interests">Interests&nbsp;&nbsp;<span id = "emoji2"><i class="fas fa-basketball-ball" style="font-size:24px;color:#0084ff"></i></span></a>
       </li>
       <li>
-        <a href="#contact">Contact 📱</a>
+        <a href="#contact">Contact&nbsp;&nbsp;<span id = "emoji3"><i class="fas fa-mobile-alt" style="font-size:24px;color:#0084ff"></i></span></a>
       </li>
     </ul>
   </nav>
@@ -30,66 +29,64 @@
  <!--Greeting-->
   <div id ="welcome">
     <section id="welcome-section" class="welcome-section">
-      <h1>hey, i'm <name id="name">alamin</id></h1>
-      <p>welcome to my site</p>
+      <div class="welcome-text">
+        <span class="disappear">
+          <h1>hey, i'm alamin</h1>
+          <p>welcome to my site</p>
+        </span>
+      </div>
     </section>
   </div>
 
 <!--Blog-->
 <section id="interests" class="interests">
-  <h2 class="projects-section-header">Thougths...</h2>
+  <h2 class="interests-header">What I'm Thinking About...</h2>
 
-  <div class="projects-grid">
-   
-    <a
-      href="https://techcrunch.com/"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="images/tech.jpg"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Tech
-        <span class="code">&#47;&gt;</span>
-      </p>
+ <div class = "interests-grid">
+    <a href="https://techcrunch.com/" target="_blank" class="interests-item">
+        <img class="interests-image" src="images/tech.jpg" alt="#AR-glasses">
+        <p class="project-title">
+          <span class="code">💻</span>
+          tech
+          <span class="code">⌚️</span>
+        </p>
     </a>
    
-    <a
-      href="https://bleacherreport.com/"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="images/sports.png"
-        alt="project"
-      />
+    <a href="https://bleacherreport.com/" target="_blank" class="interests-item">
+      <img class="interests-image" src="images/sports.jpg" alt="sports analytics" data-hover="Sports"/>
       <p class="project-title">
-        <span class="code">&lt;</span>
-        Sports
-        <span class="code">&#47;&gt;</span>
+      <span class="code">🏐</span>
+        sports
+        <span class="code">🏓</span>
       </p>
     </a>
-    <a
-      href="https://www.bonappetit.com/recipe/strawberry-milk"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="images/milk.jpg"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Food(?)
-        <span class="code">&#47;&gt;</span>
-      </p>
+
+    <a href="https://www.bonappetit.com/recipe/strawberry-milk" target="_blank" class="interests-item">
+        <img class="interests-image" src="images/milk.jpg" alt="strawberry-milk" data-hover = "Food(?)"/>
+        <p class="project-title">
+          <span class="code">🍕</span>
+          food
+          <span class="code">🥑</span>
+        </p>
     </a>
+
+    
+  </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>More About Me...</h2>
+  </div>
+  <div class="contact-links">
+    <a href="https://www.linkedin.com/in/alaminmomin/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin" style="font-size:48px;color:white"></i></a>
+    <a id="profile-link" href="https://github.com/Alamin-Momin" target="_blank" class="btn contact-details"><i class="fab fa-github" style="font-size:48px;color:white"></i></a>
+    <a href="files/resume.pdf" target="_blank" class="btn contact-details"><i class="far fa-file" style="font-size:48px;color:white"></i></a>
+    <a href="mailto:alamin.momin@utexas.edu" class="btn contact-details"><i class="far fa-envelope" style="font-size:48px;color:white"></i></a>
+    <a href="tel:713-257-0585" class="btn contact-details"><i class="fas fa-mobile-alt" style="font-size:48px;color:white"></i></a>
+  </div>
+</section>
 
 </body>
 </html>
