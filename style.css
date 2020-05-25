@@ -81,8 +81,9 @@ ul {
   top: 0px; 
   left: 0;
   width: 100%;
-  height: 7rem;
+  height: 6.0rem;
   z-index: 10;
+  background:rgba(0, 0, 0, 0.500);
 }
 
 .nav-list {
@@ -95,7 +96,7 @@ ul {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400; 
   font-size: 2.5rem;
-  padding: 2rem;
+  padding: 1.5rem;
   text-decoration: none;
   -webkit-text-fill-color: transparent; 
 }
@@ -103,7 +104,7 @@ ul {
 #emoji1,
 #emoji2, 
 #emoji3 {
-  -webkit-text-fill-color: #0084ff; 
+  -webkit-text-fill-color:var(--light-green); 
 }
 
 .nav-list a:visited{
@@ -111,7 +112,7 @@ ul {
 }
  
 .nav-list a:hover {
-  -webkit-text-fill-color: var(--dark-blue);
+  -webkit-text-fill-color: var(--light-green);
 }
 
 @media (max-width: 28.75em) {
@@ -147,6 +148,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative; 
 }
 
 .welcome-text p{
@@ -165,15 +167,10 @@ ul {
 }
 
 .welcome-text:hover:before {
-  content: "Reply!";
+  content: "I am student at the University of Texas at Austin studying Business Honors and Electrical & Computer Engineering. I am interested in sports analytics, product management, and entreprenuership. In my free time, I love to play spikeball and basketball and watch standup!";
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-}
-
-
-.cover-description:hover:after {
-  content: attr(data-hover);
-  font-size: 5rem;
+  text-align: justify;
+  font-size: 3rem; 
 }
 
 /*Interests Section*/
