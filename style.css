@@ -190,6 +190,7 @@ ul {
   margin: 0 auto 6rem auto;
   border-bottom: 0.1rem solid white;
   z-index: 0;
+  top: 5rem; 
 }
 
 .interests-header::before {
@@ -212,9 +213,13 @@ ul {
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 3vw;
-  width: 100%;
+  grid-gap: 5vw;
   margin-bottom: 6rem;
+  width: auto; 
+  margin-top: 15rem; 
+  height: 35rem; 
+  margin-left: 10rem;
+  margin-right: 10rem; 
 }
 
 .interests-item {
